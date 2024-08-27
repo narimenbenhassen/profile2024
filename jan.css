@@ -1,0 +1,28 @@
+.flex{
+   background-color: yellow;
+   width: 600px;
+   padding: 20px;
+   display: flex;
+}  
+.flex div{
+    width: 25%;
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+
+}
+.grid{
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #2f9f35;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+.grid div{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}

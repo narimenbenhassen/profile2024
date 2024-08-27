@@ -1,0 +1,47 @@
+body{
+    
+}
+@media (max-width:200px){
+body {
+    background-color: rgb(174, 29, 29);
+    
+}
+h1{
+   color: red; 
+}
+p{
+    width: 250px;
+    height: 150px;
+    border: 1px solid rgb(8, 18, 115);
+    background-color: rgb(185, 208, 78);
+
+}
+}
+@media (min-width:201px) and (max-width:580px){
+    body{
+        background-color: rgb(166, 56, 148);
+    }
+    h1{
+        font-size: 70px;
+  }
+  p{
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: white;
+  }
+    }
+ @media (min-width:581px) and (max-width:700px){
+body{
+            background-color: rgb(99, 35, 159);
+        }
+    }
+    h1{
+        font-size: 70px;
+  }
+  p{
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: rgb(204, 207, 17);
+  }

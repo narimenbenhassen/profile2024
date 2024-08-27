@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family:"Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+
+}
+.contraint{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+}
+header{
+    background-color: rgb(233, 228, 228);
+    height: 100vh;
+}
+ header .navbar{
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+header .navbar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 1.5rem 2rem; 
+    
+}
+header .navbar nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header .navbar nav ul a{
+    margin: 0 16px;
+    color: black;
+    font-weight: 600;
+
+}
+#logo{
+    color: black;
+    font-weight: 600;
+}
+header .header-content .content-text{
+    margin-bottom: 5rem;
+}
+#home .header-content{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    height: 100%;
+    max-width: 1100px;
+}
+#home .header-content img{
+    max-width: 450px;
+    margin-left: 500px;
+}
+.text-primary{
+    color: rgb(37, 216, 207);
+    font-size: 20px;
+}
+#home .header-content h1{
+    font-size: 35px;
+    color: black;
+    text-shadow: 3px 3px 3px rgb(0,0,0,0.3);
+
+}
+#home .header-content .social {
+    margin: 1rem 0 2rem;
+    display: flex;
+}
+.social a i{
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.623);
+    color:white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.social a i:hover{
+    transform: scale(0.8);
+}
+.btn{
+    background-color: rgb(61, 228, 61);
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: aqua;
+}
+#about{
+    padding: 6rem 0;
+}
+#about h1 {
+    text-align: center;
+    font-size: 40px;
+    color: palevioletred;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+#about .jj{
+    width: 150px;
+    height: 3px;
+    background-color: aquamarine;
+    border: none;
+    margin: 2px auto 0;
+}
+#about .about-contraine{
+    margin-top: 4rem;
+    display: flex;
+}
+#about .about-contraine .col-8 h3{
+    font-size: 20px;
+    color: #033b40;
+    margin-bottom: 20px;
+    margin-left: 100px;
+
+
+}
+#about .about-contraine .col-8 p{
+    font-size: 20px;
+    color: #033b40;
+    margin-bottom: 20px;
+    width: 50%;
+    color: gray;
+    line-height: 1.8;
+    margin-left: 100px;
+}
+#about .about-contraine .col-4 p{
+    color: black;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+    margin-right: 300px;
+
+}
+#skils{
+    background-color: #033b40;
+}
+
+#skils h2 ,#pptofie h2,#contact{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(27, 84, 138);
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+.abillites{
+    color: rgb(37, 216, 207);
+    font-size: 40px;
+
+}
+#skils hr, #pptofie hr{
+    width: 150px;
+    height: 3px;
+    background-color: aquamarine;
+    border: none;
+    margin: 2px auto 0;
+
+}
+#skils .skils-content{
+    margin-top: 2rem;
+    background-color: #0f272d;
+}
+#skils .skils-content .row{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    text-align: center;
+}
+#skils .skils-content .row .item{
+    color: white;
+    background-color:black;
+    margin: 20px;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 600;
+}
+#skils .row img{
+    max-width: 40px;
+}
+#skils .skils-content .row .item:hover{
+    box-shadow: 10px 10px 10px rgb(201, 103, 152);
+}
+#service{
+    background-color: rgb(225, 225, 193);
+
+}
+#service .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#service .heading img{
+    width: 55px;
+    margin-right: 5px;
+}
+#service h2{
+    text-align: center;
+    font-size: 40px;
+    color: #033b40;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+#service .row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+    row-gap: 2rem ;
+    margin-top: 4rem;
+    text-align: center;
+    border-radius: 5px;
+}             
+#service .row .item img {
+    width: 200px;
+}
+#service .row .item {
+    padding: 30px 15px;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.178);
+    background-color: white;
+}
+#service .row .item h3{
+    margin: 5px 0;
+    color: #033b40;
+}
+#service .row .item p{
+    font-size: 14px;
+}
+#service .row .item:hover{
+    transform: scale(1.04);
+}
+
+#pptofie {
+    background-color: #0f272d;
+}
+#pptofie h2{
+    color: white;
+}
+#pptofie .row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+#pptofie .row .item{
+    background-color: white;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    padding-bottom: 10px;
+}
+#pptofie .row .item img{
+    width: 100%;
+    border-radius: 5px;
+    border-bottom: 1px solid white;
+}
+#pptofie .row .item:hover{
+    transform:scale(1.04)
+}
+#pptofie .row .item h3{
+    font-size: 18px;
+    color: #0f272d;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+#pptofie .row .item a{
+    font-size: 14px;
+    color: #367208;
+    margin-left: 10px;
+}
+#pptofie .row .item .contraint{
+    padding: 20px 15px;
+}
+#contact{
+    padding: 4rem;
+    background-color: #ddd;
+}
+#contact .row{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem 3rem ;
+    box-shadow: 3px 3px 20px rgb(89, 209, 89);
+
+}
+#contact .row img{
+    max-width: 400px;
+}
+#contact .row input{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: aliceblue;
+    border: 1px solid #bbb;
+}
+#contact .row textarea {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: aliceblue;
+    border: 1px solid #bbb;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: #ccc;
+    padding: 1rem 0;
+}
+@media(max-width:580px) {
+    
+}
+
+
+
+
+
+
+
+
+
